@@ -157,3 +157,8 @@ figure {
     gap: 10px; 
     align-items: center; 
 }
+
+#Conclusion{
+    padding: 15px;
+    line-height: 1.5;
+}
