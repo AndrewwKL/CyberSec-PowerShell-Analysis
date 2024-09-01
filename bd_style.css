@@ -4,7 +4,7 @@ body, html {
     font-family: 'Times New Roman', serif;
 }
 
-.container {
+.principal {
    
    background-image:url("a\ hacker\ wearing\ a\ green\ mask.\ \ co.webp") ;
     background-size: cover;
@@ -18,6 +18,11 @@ body, html {
     text-align: center;
 }
 
+.contenido {
+    background-image: url(A\ black\ and\ white\ image\ focusing\ on\ cybersecurityc.webp);
+    background-size: cover;
+    
+}
 .navbar {
     position: absolute;
     top: 20px;
@@ -56,4 +61,35 @@ body, html {
     font-size: 20px;
     letter-spacing: 3px;
     margin: 10px 0 0;
+}
+#PowerShell {
+    background-color: rgb(23, 193, 148);
+    padding: 10%;
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+#PowerShell h2{
+    padding: 5% 0;
+    font-size: xx-large;
+    background-color: whitesmoke;
+    background-size:contain;
+    text-align: center;
+    border-radius: 10px; 
+    border: 2px solid black;
+   
+}
+
+#PowerShell img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+#PowerShell p{
+    font-size: larger;
+}
+
+.izquierda{
+    margin-right: 15px;
+    line-height: 30px;
 }
