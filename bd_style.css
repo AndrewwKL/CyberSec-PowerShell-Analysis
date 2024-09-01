@@ -93,3 +93,39 @@ body, html {
     margin-right: 15px;
     line-height: 30px;
 }
+#Ataques{
+
+    background-color: none;
+    display: grid;
+    grid-template-columns: 50% 40%;
+    color:rgb(23, 193, 148);
+    justify-content: center;
+    padding: 30px;
+}
+
+.middle_text{
+    background-color: aliceblue;
+    text-align: center;
+    margin: 0;
+    padding: 30px;
+    color: teal;
+    font-size:50px;
+    
+}
+.ataq_derecha{
+
+    color: white;
+    padding: 15px;
+  border-radius: 9px;
+  border: 2px solid rgb(255, 255, 255);
+  color: black;
+  background-color: rgb(23, 193, 148);
+}
+.ataq_izquierda{
+    background-color: aliceblue;
+    color: teal;
+    padding: 15px;
+  border-radius: 9px;
+  border: 2px solid rgb(255, 255, 255);
+  margin-right: 15px;
+}
