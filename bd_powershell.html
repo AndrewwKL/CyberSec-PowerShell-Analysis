@@ -78,11 +78,69 @@
 
             </div>
         </div>
+
+        <div id="Autoencoder" class="section">
+            <h2>Estructura de Autoencoders en la Detección de Scripts Maliciosos</h2>
+            <p>Un autoencoder es una técnica de aprendizaje profundo que se utiliza principalmente para la reducción
+                de
+                dimensionalidad y la extracción de características relevantes en grandes volúmenes de datos. En el
+                contexto de la detección de scripts maliciosos de PowerShell, los autoencoders son fundamentales
+                para
+                identificar patrones ocultos en los datos que pueden indicar comportamientos maliciosos.
+            La estructura de un autoencoder incluye dos partes principales: un codificador (encoder) y un
+                decodificador (decoder). El codificador transforma la entrada original en una representación más
+                compacta, mientras que el decodificador intenta reconstruir la entrada original a partir de esta
+                representación compacta. Durante este proceso, el modelo aprende a extraer las características más
+                relevantes que pueden ser utilizadas para distinguir entre scripts benignos y maliciosos.
+                En el modelo MPSAutodetect, se utiliza un tipo especial de autoencoder llamado autoencoder de
+                desincronización apilada (SdA). Este modelo introduce ruido en los datos de entrada para mejorar la
+                robustez del aprendizaje, permitiendo que el modelo extraiga características más significativas
+                incluso
+                en presencia de scripts ofuscados o muy complejos.</p>
+
+                
+
+            <h2>Análisis de Componentes Principales (PCA) en la Detección de Scripts Maliciosos</h2>
+            <figure>
+                <img src="2-D PCA del conjunto de datos.png" alt="ROC curve">
+                <figcaption>Fig. 6. ROC curve.</figcaption>
+                <img src="Fig. 5. PCA en 2D del conjunto de datos..png" alt="2-D PCA del conjunto de datos">
+                <figcaption>Fig. 5. PCA en 2D del conjunto de datos.</figcaption>
+            </figure>
+            <p>La imagen anterior muestra una gráfica de análisis de componentes principales (PCA) en dos
+                dimensiones
+                aplicada a un conjunto de datos. PCA es una técnica utilizada para reducir la dimensionalidad de
+                grandes
+                conjuntos de datos, preservando la mayor cantidad posible de la variabilidad en los mismos.</p>
+            <p>En la gráfica:</p>
+            <ul>
+                <li><strong>Ejes PC1 y PC2:</strong> Representan los dos primeros componentes principales, que son
+                    combinaciones lineales de las características originales, capturando la mayor parte de la
+                    variabilidad en los datos.</li>
+                <li><strong>Puntos en la Gráfica:</strong> Los puntos están coloreados según si corresponden a
+                    scripts
+                    benignos (en azul) o maliciosos (en rojo). Cada punto representa un script proyectado en el
+                    espacio
+                    de dos dimensiones generado por los componentes principales.</li>
+                <li><strong>Separación de Clases:</strong> La gráfica sugiere que los scripts maliciosos y benignos
+                    tienen ciertas diferencias en el espacio de los componentes principales, permitiendo cierto
+                    nivel de
+                    separación entre ambas clases.</li>
+                <li><strong>Solapamiento:</strong> A pesar de la separación, hay un solapamiento considerable entre
+                    los
+                    puntos rojos y azules, lo que indica la complejidad de distinguir entre scripts benignos y
+                    maliciosos.</li>
+            </ul>
+            <p>Este análisis es relevante porque demuestra la dificultad de clasificar scripts de PowerShell como
+                benignos o maliciosos, subrayando la necesidad de modelos avanzados y técnicas como autoencoders
+                para
+                mejorar la detección.</p>
+        </div>
     </div>
     </div>
 
     <footer>
-       
+        
     </footer>
 
 </body>

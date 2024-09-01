@@ -129,3 +129,31 @@ body, html {
   border: 2px solid rgb(255, 255, 255);
   margin-right: 15px;
 }
+
+#Autoencoder{
+    background-color: rgb(23, 193, 148);
+    color: teal;
+    line-height: 1.5;
+    padding: 30px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+#Autoencoder h2{
+    text-align: center;
+    padding: 15px;
+    border: 2px solid teal;
+    border-radius: 10px;
+}
+
+#Autoencoder p{
+    border-radius: 10px;
+    border: 2px solid white;
+    padding: 15px;
+}
+
+figure {
+    display: flex; 
+    gap: 10px; 
+    align-items: center; 
+}
