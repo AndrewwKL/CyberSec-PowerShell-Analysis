@@ -29,8 +29,22 @@ body, html {
     width: 100%;
     display: flex;
     justify-content: center;
+    
+    
 }
-
+.navbar a {
+    transition: color 0.3s ease;
+    background-color: #18510a29;
+    
+}
+a:hover
+{
+    background-color: rgb(100, 123, 103);
+    border-radius: 10px;
+    padding: 10px;
+    
+    
+}
 .navbar ul {
     list-style: none;
     padding: 0;
@@ -161,4 +175,11 @@ figure {
 #Conclusion{
     padding: 15px;
     line-height: 1.5;
+    background-color: rgb(195, 222, 198);
+    border-radius: 15px;
+}
+footer{
+    background-color: rgb(100, 123, 103);
+    padding: 20px;
+    border-radius: 10px;
 }
