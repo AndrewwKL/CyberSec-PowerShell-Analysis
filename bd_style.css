@@ -6,7 +6,7 @@ body, html {
 
 .principal {
    
-   background-image:url("a\ hacker\ wearing\ a\ green\ mask.\ \ co.webp") ;
+   background-image:url("Img/a\ hacker\ wearing\ a\ green\ mask.\ \ co.webp") ;
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -19,7 +19,7 @@ body, html {
 }
 
 .contenido {
-    background-image: url(A\ black\ and\ white\ image\ focusing\ on\ cybersecurityc.webp);
+    background-image: url(Img/A\ black\ and\ white\ image\ focusing\ on\ cybersecurityc.webp);
     background-size: cover;
     
 }
